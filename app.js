@@ -555,22 +555,176 @@ document.querySelector("#visbtn2").addEventListener("click",()=>{
     document.querySelector(".te").classList.remove("active")
     document.querySelector(".frag").classList.remove("active")
     document.querySelector(".content").style.display="none";
-
+    document.querySelector(".pline1").classList.remove("active")
+    document.querySelector(".pside1").classList.remove("active")
+    document.querySelector(".pside2").classList.remove("active")
+    document.querySelector(".pbox").classList.remove("active")
+    document.querySelector(".pside").classList.remove("active");
+    document.querySelector(".wline1").classList.remove("active")
+    document.querySelector(".wside1").classList.remove("active")
+    document.querySelector(".wside2").classList.remove("active")
+    document.querySelector(".wbox").classList.remove("active")
+    document.querySelector(".wside").classList.remove("active");
+    document.querySelector(".gline1").classList.remove("active")
+    document.querySelector(".gside1").classList.remove("active")
+    document.querySelector(".gside2").classList.remove("active")
+    document.querySelector(".gbox").classList.remove("active")
+    document.querySelector(".gside").classList.remove("active");
+    document.querySelector(".cont2").style.display="none";
+    document.querySelector(".cont3").style.display="none";
+    document.querySelector(".cont4").style.display="none";
 },900)
 })
 document.querySelector("#visbtn1").addEventListener("click",()=>{
-    setTimeout(()=>{document.querySelector(".tline1").classList.add("active")
+    setTimeout(()=>{
+    // document.querySelector(".tline1").classList.add("active")
+    // document.querySelector(".line1").classList.add("active")
+    // document.querySelector(".aside1").classList.add("active")
+    // document.querySelector(".aside2").classList.add("active")
+    // document.querySelector(".te").classList.add("active")
+    // document.querySelector(".frag").classList.add("active")
+    // document.querySelector(".cont").style.display="none";
+    // document.querySelector(".tline1").classList.remove("active")
+    // document.querySelector(".tside1").classList.remove("active")
+    // document.querySelector(".tside2").classList.remove("active")
+    // document.querySelector(".tbox").classList.remove("active")
+    // document.querySelector(".two").classList.remove("active");
+    // document.querySelector(".content").style.display="block";
+    document.querySelector(".tline1").classList.remove("active")
+    document.querySelector(".tside1").classList.remove("active")
+    document.querySelector(".tside2").classList.remove("active")
+    document.querySelector(".tbox").classList.remove("active")
+    document.querySelector(".two").classList.remove("active")
+    document.querySelector(".cont").style.display="none";
+    document.querySelector(".tline1").classList.remove("active")
     document.querySelector(".line1").classList.add("active")
     document.querySelector(".aside1").classList.add("active")
     document.querySelector(".aside2").classList.add("active")
     document.querySelector(".te").classList.add("active")
     document.querySelector(".frag").classList.add("active")
-    document.querySelector(".cont").style.display="none";
+    document.querySelector(".content").style.display="block";
+    document.querySelector(".pline1").classList.remove("active")
+    document.querySelector(".pside1").classList.remove("active")
+    document.querySelector(".pside2").classList.remove("active")
+    document.querySelector(".pbox").classList.remove("active")
+    document.querySelector(".pside").classList.remove("active");
+    document.querySelector(".wline1").classList.remove("active")
+    document.querySelector(".wside1").classList.remove("active")
+    document.querySelector(".wside2").classList.remove("active")
+    document.querySelector(".wbox").classList.remove("active")
+    document.querySelector(".wside").classList.remove("active");
+    document.querySelector(".gline1").classList.remove("active")
+    document.querySelector(".gside1").classList.remove("active")
+    document.querySelector(".gside2").classList.remove("active")
+    document.querySelector(".gbox").classList.remove("active")
+    document.querySelector(".gside").classList.remove("active");
+    document.querySelector(".cont2").style.display="none";
+    document.querySelector(".cont3").style.display="none";
+    document.querySelector(".cont4").style.display="none";
+},900)
+})
+document.querySelector("#visbtn3").addEventListener("click",()=>{
+    setTimeout(()=>{
     document.querySelector(".tline1").classList.remove("active")
     document.querySelector(".tside1").classList.remove("active")
     document.querySelector(".tside2").classList.remove("active")
     document.querySelector(".tbox").classList.remove("active")
-    document.querySelector(".two").classList.remove("active");
-    document.querySelector(".content").style.display="block";
+    document.querySelector(".two").classList.remove("active")
+    document.querySelector(".cont").style.display="none";
+    document.querySelector(".tline1").classList.remove("active")
+    document.querySelector(".line1").classList.remove("active")
+    document.querySelector(".aside1").classList.remove("active")
+    document.querySelector(".aside2").classList.remove("active")
+    document.querySelector(".te").classList.remove("active")
+    document.querySelector(".frag").classList.remove("active")
+    document.querySelector(".content").style.display="none";
+    document.querySelector(".pline1").classList.add("active")
+    document.querySelector(".pside1").classList.add("active")
+    document.querySelector(".pside2").classList.add("active")
+    document.querySelector(".pbox").classList.add("active")
+    document.querySelector(".pside").classList.add("active");
+    document.querySelector(".wline1").classList.remove("spe")
+    document.querySelector(".wside1").classList.remove("spe")
+    document.querySelector(".wside2").classList.remove("spe")
+    document.querySelector(".wbox").classList.remove("spe")
+    document.querySelector(".wside").classList.remove("spe");
+    document.querySelector(".gline1").classList.remove("active")
+    document.querySelector(".gside1").classList.remove("active")
+    document.querySelector(".gside2").classList.remove("active")
+    document.querySelector(".gbox").classList.remove("active")
+    document.querySelector(".gside").classList.remove("active");
+    document.querySelector(".cont2").style.display="block";
+    document.querySelector(".cont3").style.display="none";
+    document.querySelector(".cont4").style.display="none";
+},900)
+})
+document.querySelector("#visbtn4").addEventListener("click",()=>{
+    setTimeout(()=>{
+    document.querySelector(".tline1").classList.remove("active")
+    document.querySelector(".tside1").classList.remove("active")
+    document.querySelector(".tside2").classList.remove("active")
+    document.querySelector(".tbox").classList.remove("active")
+    document.querySelector(".two").classList.remove("active")
+    document.querySelector(".cont").style.display="block";
+    document.querySelector(".tline1").classList.remove("active")
+    document.querySelector(".line1").classList.remove("active")
+    document.querySelector(".aside1").classList.remove("active")
+    document.querySelector(".aside2").classList.remove("active")
+    document.querySelector(".te").classList.remove("active")
+    document.querySelector(".frag").classList.remove("active")
+    document.querySelector(".content").style.display="none";
+    document.querySelector(".pline1").classList.remove("active")
+    document.querySelector(".pside1").classList.remove("active")
+    document.querySelector(".pside2").classList.remove("active")
+    document.querySelector(".pbox").classList.remove("active")
+    document.querySelector(".pside").classList.remove("active");
+    document.querySelector(".wline1").classList.add("spe")
+    document.querySelector(".wside1").classList.add("spe")
+    document.querySelector(".wside2").classList.add("spe")
+    document.querySelector(".wbox").classList.add("spe")
+    document.querySelector(".wside").classList.add("spe");
+    document.querySelector(".gline1").classList.remove("active")
+    document.querySelector(".gside1").classList.remove("active")
+    document.querySelector(".gside2").classList.remove("active")
+    document.querySelector(".gbox").classList.remove("active")
+    document.querySelector(".gside").classList.remove("active");
+    document.querySelector(".cont2").style.display="none";
+    document.querySelector(".cont3").style.display="block";
+    document.querySelector(".cont4").style.display="none";
+},900)
+})
+document.querySelector("#visbtn5").addEventListener("click",()=>{
+    setTimeout(()=>{
+    document.querySelector(".tline1").classList.remove("active")
+    document.querySelector(".tside1").classList.remove("active")
+    document.querySelector(".tside2").classList.remove("active")
+    document.querySelector(".tbox").classList.remove("active")
+    document.querySelector(".two").classList.remove("active")
+    document.querySelector(".cont").style.display="block";
+    document.querySelector(".tline1").classList.remove("active")
+    document.querySelector(".line1").classList.remove("active")
+    document.querySelector(".aside1").classList.remove("active")
+    document.querySelector(".aside2").classList.remove("active")
+    document.querySelector(".te").classList.remove("active")
+    document.querySelector(".frag").classList.remove("active")
+    document.querySelector(".content").style.display="none";
+    document.querySelector(".pline1").classList.remove("active")
+    document.querySelector(".pside1").classList.remove("active")
+    document.querySelector(".pside2").classList.remove("active")
+    document.querySelector(".pbox").classList.remove("active")
+    document.querySelector(".pside").classList.remove("spe");
+    document.querySelector(".wline1").classList.remove("spe")
+    document.querySelector(".wside1").classList.remove("spe")
+    document.querySelector(".wside2").classList.remove("spe")
+    document.querySelector(".wbox").classList.remove("spe")
+    document.querySelector(".wside").classList.remove("spe");
+    document.querySelector(".gline1").classList.add("active")
+    document.querySelector(".gside1").classList.add("active")
+    document.querySelector(".gside2").classList.add("active")
+    document.querySelector(".gbox").classList.add("active")
+    document.querySelector(".gside").classList.add("active");
+    document.querySelector(".cont2").style.display="none";
+    document.querySelector(".cont3").style.display="none";
+    document.querySelector(".cont4").style.display="block";
 },900)
 })

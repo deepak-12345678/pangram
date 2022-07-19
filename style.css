@@ -209,6 +209,7 @@ nav{
 
 
 }
+.arrow
 .backcrossdown{
     animation: backdiv2 0.5s ease-in-out;
     transform:rotate(0)translateY(0);
@@ -429,9 +430,15 @@ nav{
     padding-right:10px;
     transform:scale(2);
 }
+.hold2,.whold2,.ghold2{
+    display: flex;
+}
 .ing{
     width:55%;
     font-size: 60px;
+}
+.phead,.ghead,.whead{
+    font-size:50px;
 }
 .ic{
     font-size:16px;
@@ -445,6 +452,9 @@ nav{
     animation: grow 2s cubic-bezier(0.06, 0.52, 0.64, 1.13) ;
 
 }
+.spe{
+    animation: other_grow 2s cubic-bezier(0.06, 0.52, 0.64, 1.13) ;
+}
 @keyframes grow {
     from{
         clip-path: polygon(0 100%,100% 100%,100% 100%,0 100%);
@@ -453,6 +463,14 @@ nav{
     to{
         clip-path: polygon(0 0,100% 0,100% 100%,0 100%);
         transform: translate(0,0%);
+    }
+}
+@keyframes other_grow {
+    from{
+        clip-path: polygon(0 100%,100% 100%,100% 100%,0 100%);
+    }
+    to{
+        clip-path: polygon(0 0,100% 0,100% 100%,0 100%);
     }
 }
 @keyframes frag_ani {
@@ -469,7 +487,7 @@ nav{
 .frag{
     animation:frag_ani 1.5s ease-out ;
 }
-.cont{
+.cont,.cont2,.cont3,.cont4{
     display: none;
 }
 .tline1{
@@ -480,7 +498,37 @@ nav{
     color:white;
     font-size: 200px;
     width:100%;
-    font-family: neue-machina-inktrap-regular, "Neue Montreal";
+    margin-left:12vw;
+}
+.wline1{
+    position:absolute;
+    top:7vh;
+    width:30vh;
+    z-index:3;
+    color:white;
+    font-size: 200px;
+    width:100%;
+    margin-left:12vw;
+}
+.gline1{
+    position:absolute;
+    top:7vh;
+    width:30vh;
+    z-index:3;
+    color:white;
+    font-size: 200px;
+    width:100%;
+    margin-left:12vw;
+}
+.pline1{
+    position:absolute;
+    top:7vh;
+    width:30vh;
+    z-index:3;
+    color:white;
+    font-size: 200px;
+    width:100%;
+    font-family: 'roboto';
     margin-left:12vw;
 }
 .tline2{
@@ -492,7 +540,66 @@ nav{
     font-size: 200px;
     display: flex;
     width:100%;
-    font-family: neue-machina-inktrap-regular, "Neue Montreal";
+}
+.gline2{
+    position:absolute;
+    top:37vh;
+    width:30vh;
+    z-index:3;
+    color:white;
+    font-size: 200px;
+    display: flex;
+    width:100%;
+}
+.wline2{
+    position:absolute;
+    top:37vh;
+    width:30vh;
+    z-index:3;
+    color:white;
+    font-size: 200px;
+    display: flex;
+    width:100%;
+}
+.pline2{
+    position:absolute;
+    top:37vh;
+    width:30vh;
+    z-index:3;
+    color:white;
+    font-size: 200px;
+    display: flex;
+    width:100%;
+}
+.pline3{
+    position:absolute;
+    top:67vh;
+    width:30vh;
+    z-index:3;
+    color:white;
+    display:flex;
+    width:100%;
+    margin-left:5vw;
+}
+.gline3{
+    position:absolute;
+    top:67vh;
+    width:30vh;
+    z-index:3;
+    color:white;
+    display:flex;
+    width:100%;
+    margin-left:5vw;
+}
+.wline3{
+    position:absolute;
+    top:67vh;
+    width:30vh;
+    z-index:3;
+    color:white;
+    display:flex;
+    width:100%;
+    margin-left:5vw;
 }
 .tline3{
     position:absolute;
@@ -502,28 +609,67 @@ nav{
     color:white;
     display:flex;
     width:100%;
-    font-family: neue-machina-inktrap-regular, "Neue Montreal";
     margin-left:5vw;
 }
 
-.tline1, .tline2, .tline3 {
+.tline1, .tline2, .tline3,.pline1, .pline2, .pline3,.wline1, .wline2, .wline3 ,.gline1, .gline2, .gline3{
     pointer-events: none;
 }
 
 .two{
     font-size: 200px;
 }
+.wside{
+    font-size: 200px;
+}
+.gside{
+    font-size: 200px;
+}
+.pside{
+    font-size: 200px;
+}
 .tbox{
+    width:30%;
+    border:0.5px solid white;
+    padding:10px;
+    margin-right:20vw; 
+}
+.gbox{
+    width:30%;
+    border:0.5px solid white;
+    padding:10px;
+    margin-right:20vw; 
+}
+.wbox{
     width:30%;
     border:0.5px solid white;
     padding:10px;
     margin-right:20vw;
     
 }
+.pbox{
+    width:30%;
+    border:0.5px solid white;
+    padding:10px;
+    margin-right:20vw;
+    
+}
+.ghead{
+    font-size: 50px;
+}
 .thead{
     font-size: 50px;
 }
+.whead{
+    font-size: 50px;
+}
 .tbody{
+    font-size:16px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    display: flex;
+}
+.divh2{
     font-size:16px;
     font-family: 'Roboto';
     font-weight: 300;
@@ -534,6 +680,45 @@ nav{
     margin-left:5vw;
 }
 .tside2{
+    width:40vw;
+}
+.gbody{
+    font-size:16px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    display: flex;
+}
+.gdivh2{
+    font-size:16px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    display: flex;
+}
+.gside1{
+    width:60vw;
+    margin-left:5vw;
+}
+.gside2{
+    width:40vw;
+}
+.wdivh2{
+    font-size:16px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    display: flex;
+}
+.wside1{
+    width:60vw;
+    margin-left:5vw;
+}
+.wside2{
+    width:40vw;
+}
+.pside1{
+    width:60vw;
+    margin-left:5vw;
+}
+.pside2{
     width:40vw;
 }
 @keyframes reg {
